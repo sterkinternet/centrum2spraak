@@ -174,7 +174,7 @@ p {
 }
 
 .site-logo img {
-  height: 90px;
+  height: 120px;
   width: auto;
   transition: height 0.3s ease, filter 0.3s ease;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
@@ -186,11 +186,11 @@ p {
   text-decoration: none;
   position: relative;
   z-index: 1001;
-  margin: -10px 0;
+  margin: 10px 0 -30px;
 }
 
 .site-header.scrolled .site-logo img {
-  height: 60px;
+  height: 84px;
 }
 
 .main-nav {
@@ -1054,6 +1054,20 @@ main {
   color: var(--color-primary-light);
 }
 
+.footer-meta {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.footer-subtitle {
+  color: #fff;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  margin: 1rem 0 0.35rem;
+}
+
 .footer-social {
   display: flex;
   gap: 1rem;
@@ -1554,5 +1568,217 @@ button:focus-visible,
   .badge-row {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+/* --- Profile Bio --- */
+.profile-bio {
+  background:
+    radial-gradient(circle at top left, rgba(0, 170, 213, 0.08), transparent 50%),
+    var(--color-primary-bg);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.profile-bio p {
+  margin-bottom: 0;
+}
+
+/* --- Volwassenen Highlight --- */
+.volwassenen-highlight {
+  background:
+    radial-gradient(circle at top right, rgba(232, 50, 124, 0.06), transparent 50%),
+    linear-gradient(135deg, var(--color-primary-bg), rgba(232, 50, 124, 0.04));
+  border: 1px solid rgba(0, 170, 213, 0.18);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin: 2rem 0 3rem;
+}
+
+.volwassenen-highlight h3 {
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.volwassenen-highlight ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.volwassenen-highlight ul li {
+  margin-bottom: 0.35rem;
+}
+
+/* --- Ervaringen / PREM --- */
+.prem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.prem-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 170, 213, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.prem-score {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.prem-card h3 {
+  font-size: var(--font-size-base);
+  margin-bottom: 0.5rem;
+}
+
+.prem-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: 0;
+}
+
+/* --- Parking Info --- */
+.parking-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-primary-bg);
+  border-radius: var(--radius);
+  font-size: var(--font-size-sm);
+}
+
+.parking-info svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  fill: var(--color-primary);
+  margin-top: 0.1rem;
+}
+
+.parking-info p {
+  margin-bottom: 0;
+}
+
+/* --- Opening Hours --- */
+.opening-hours {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-primary-bg);
+  border-radius: var(--radius);
+  margin-top: 1.5rem;
+}
+
+.opening-hours svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  fill: var(--color-primary);
+  margin-top: 0.1rem;
+}
+
+.opening-hours p {
+  margin-bottom: 0;
+}
+
+/* --- Insurance Badge --- */
+.insurance-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background:
+    radial-gradient(circle at top left, rgba(0, 170, 213, 0.1), transparent 50%),
+    var(--color-primary-bg);
+  border: 1px solid rgba(0, 170, 213, 0.18);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.insurance-badge svg {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  fill: var(--color-primary);
+}
+
+.insurance-badge h3 {
+  color: var(--color-primary-dark);
+  margin-bottom: 0.25rem;
+  font-size: var(--font-size-lg);
+}
+
+.insurance-badge p {
+  margin-bottom: 0;
+  color: var(--color-text);
+}
+
+/* --- Behandelpad Page --- */
+.behandelpad-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  counter-reset: step;
+}
+
+.behandelpad-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 170, 213, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.behandelpad-card .step-number {
+  counter-increment: step;
+}
+
+/* --- Over Ons --- */
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.vision-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 170, 213, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.vision-card h3 {
+  color: var(--color-cta-blue);
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .volwassenen-highlight ul {
+    columns: 1;
   }
 }
