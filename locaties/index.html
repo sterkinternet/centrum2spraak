@@ -17,6 +17,7 @@
   <link rel="icon" href="../assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="../assets/images/favicon-192x192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -42,10 +43,64 @@
     </div>
   </header>
   <main id="main-content">
-    <section class="page-hero">
+    <section class="page-hero page-hero-locations">
       <h1>Locaties</h1>
-      <p>Wij bieden zorg in de gemeenten Ommen, Twenterand, Hardenberg en Hellendoorn. Hier kunt u ons vinden op scholen en in gezondheidscentra.</p>
+      <p>Van Ommen tot Hellendoorn werken we op scholen, in praktijken en gezondheidscentra. Op de kaart hieronder ziet u per marker het exacte adres en een directe route naar Google Maps.</p>
     </section>
+
+    <section class="section section-map-overview">
+      <div class="container">
+        <div class="map-embed" aria-label="Kaart met locaties van Centrum 2Spraak in de regio">
+          <div class="map-frame">
+            <div
+              id="locations-map"
+              class="location-map"
+              data-map-center-lat="52.505"
+              data-map-center-lng="6.505"
+              data-map-zoom="10"
+              aria-label="Interactieve kaart met locaties van Centrum 2Spraak in de regio">
+              <noscript>
+                <iframe
+                  src="https://maps.google.com/maps?ll=52.505,6.505&z=10&t=m&output=embed"
+                  title="Kaart met locaties van Centrum 2Spraak in de regio"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen>
+                </iframe>
+              </noscript>
+            </div>
+            <script type="application/json" class="location-map-data">
+              [
+                {"name":"KBS De Langewieke","address":"Langewijk 178a, 7701 AK Dedemsvaart","lat":52.6066762,"lng":6.4612639,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.6066762,6.4612639"},
+                {"name":"OBS De Eiber","address":"Eiberweg 2, 7701 VE Dedemsvaart","lat":52.59662,"lng":6.4570655,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.59662,6.4570655"},
+                {"name":"OBS 't Kompas","address":"De Tjalk 2, 7701 VE Dedemsvaart","lat":52.6005845,"lng":6.4509839,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.6005845,6.4509839"},
+                {"name":"CBS De Schakel","address":"Beerzerhaar 5a, 7685 PP Beerzerveld","lat":52.5051073,"lng":6.5776352,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5051073,6.5776352"},
+                {"name":"De Haere","address":"Dorpsstraat 4, 7691 BH Bergentheim","lat":52.5274798,"lng":6.6187767,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5274798,6.6187767"},
+                {"name":"CDS Casper Diemerschool","address":"G.K. van Hogendorpstraat 52, 7691 AW Bergentheim","lat":52.5245272,"lng":6.6155817,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5245272,6.6155817"},
+                {"name":"Ds. Koningsbergerschool","address":"Kanaalweg West 58, 7691 CA Bergentheim","lat":52.5271979,"lng":6.6195171,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5271979,6.6195171"},
+                {"name":"Buurthuis Veur Mekaar","address":"Burgemeester Oprellaan 5, 7691 BE Bergentheim","lat":52.5274237,"lng":6.6167042,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5274237,6.6167042"},
+                {"name":"Broekmaten","address":"Broekmaten 6, 7683 XH Den Ham","lat":52.4660905,"lng":6.4969534,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.4660905,6.4969534"},
+                {"name":"Zuidmaten","address":"Roelofsbrink 12, 7683 CK Den Ham","lat":52.4609523,"lng":6.4948092,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.4609523,6.4948092"},
+                {"name":"CBS De Ark","address":"Het Caphorst 2, 7688 RK Daarle","lat":52.4345207,"lng":6.5331572,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.4345207,6.5331572"},
+                {"name":"CBS De Marliaantjes","address":"Hammerweg 8, 7447 SM Hellendoorn","lat":52.423874,"lng":6.4816278,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.423874,6.4816278"},
+                {"name":"OBS Cantecleer","address":"Schoolstraat 32, 7694 AX Kloosterhaar","lat":52.4976408,"lng":6.671478,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.4976408,6.671478"},
+                {"name":"CBS Ichthus","address":"Korteveldsweg 4, 8148 RE Lemele","lat":52.452218,"lng":6.4139966,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.452218,6.4139966"},
+                {"name":"Gezondheidscentrum Ommen","address":"Jhr. van Nahuysstraat 66, 7731 ED Ommen","lat":52.5245254,"lng":6.4206951,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5245254,6.4206951"},
+                {"name":"Kindplein West","address":"Patrijsstraat 4, 7731 ZL Ommen","lat":52.5250765,"lng":6.413359,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5250765,6.413359"},
+                {"name":"CBS De Kardoen","address":"Korenbloemstraat 2, 7731 VW Ommen","lat":52.5252271,"lng":6.4342056,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5252271,6.4342056"},
+                {"name":"CNS Ommerkanaal","address":"Ommerkanaal-Oost 30, 7731 TT Ommen","lat":52.5640937,"lng":6.433875,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5640937,6.433875"},
+                {"name":"OBS Nieuwebrug","address":"Barkeweg 3, 7731 PS Ommen","lat":52.492387,"lng":6.4260682,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.492387,6.4260682"},
+                {"name":"OBS Het Palet","address":"Haarsweg 91, 7731 HJ Ommen","lat":52.5305288,"lng":6.4350326,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5305288,6.4350326"},
+                {"name":"RKBS Sint Bernardus","address":"Nering B\u00f6gelstraat 3, 7731 EL Ommen","lat":52.5210812,"lng":6.4201389,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5210812,6.4201389"},
+                {"name":"SBO Johan Seckel","address":"De Schammelte 3, 7731 BL Ommen","lat":52.5119952,"lng":6.4221066,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.5119952,6.4221066"},
+                {"name":"PCB De Triangel","address":"Balkerweg 59, 7738 PA Witharen","lat":52.562198,"lng":6.3964305,"mapsUrl":"https://www.google.com/maps/search/?api=1&query=52.562198,6.3964305"}
+              ]
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
         <div class="location-grid">
@@ -159,6 +214,7 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="../assets/js/nav.js" defer></script>
 </body>
 </html>
