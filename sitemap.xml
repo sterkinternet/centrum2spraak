@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://centrum2spraak.nl/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://centrum2spraak.nl/logopedie/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://centrum2spraak.nl/dyslexie/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://centrum2spraak.nl/vergoedingen/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://centrum2spraak.nl/onze-specialisten/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://centrum2spraak.nl/contact/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/privacy/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <!-- Specialist profiles -->
+  <url><loc>https://centrum2spraak.nl/linda-oosterlaar/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/danielle-brunink/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/sonja-vanrijn/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/dianne-broekroelofs/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/elselien-groot/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/esmee-kortstee/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/esmee-loovers/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/zajinde-de-bruijn-kievit/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/keshia-fieten-van-duren/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/marlon-wijnholt/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/lisa-talen/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/anouk-roeberts-hersevoort/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/joanne-dunnink/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/juliet-veurink/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Location detail pages -->
+  <url><loc>https://centrum2spraak.nl/locaties/bergentheim/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/dedemsvaart/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/den-ham/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/hellendoorn/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/kloosterhaar/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/beerzerveld/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/lemele/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommerkanaal/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <!-- Location sub-pages -->
+  <url><loc>https://centrum2spraak.nl/locaties/bergentheim/de-haere/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/bergentheim/cds-casper-diemerschool/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/bergentheim/ds-koningsbergerschool/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/gezondheidscentrum-ommen/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/cbs-koloriet/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/cbs-de-kardoen/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/gbs-guido-de-bres/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/obs-het-palet/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/ommen/gkbs-sint-bernardus/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/dedemsvaart/de-fontein/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/dedemsvaart/kbs-de-langewieke/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/dedemsvaart/obs-de-eiber/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/dedemsvaart/obs-t-kompas/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/den-ham/broekmaten/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://centrum2spraak.nl/locaties/den-ham/zuidmaten/</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+</urlset>
