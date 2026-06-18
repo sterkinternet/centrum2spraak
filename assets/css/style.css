@@ -571,8 +571,13 @@ main {
 
 .support-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  --support-grid-columns: 4;
+  grid-template-columns: repeat(var(--support-grid-columns), minmax(0, 1fr));
   gap: 1.25rem;
+}
+
+.support-grid-home {
+  --support-grid-columns: 3;
 }
 
 .support-card {
@@ -1562,7 +1567,7 @@ button:focus-visible,
   }
 
   .specialist-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .badge-row {
