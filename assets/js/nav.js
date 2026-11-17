@@ -49,6 +49,31 @@
     }, { passive: true });
   }
 
+  // Rotate photos on location cards that cover several sites in one place.
+  var rotators = document.querySelectorAll('[data-rotate]');
+  rotators.forEach(function (rotator, index) {
+    var images = rotator.querySelectorAll('img');
+    var current = 0;
+
+    if (images.length < 2) {
+      return;
+    }
+
+    // Stagger the cards so they don't all switch at the same moment.
+    window.setTimeout(function () {
+      window.setInterval(function () {
+        if (document.hidden) {
+          return;
+        }
+        images[current].classList.remove('is-active');
+        images[current].setAttribute('aria-hidden', 'true');
+        current = (current + 1) % images.length;
+        images[current].classList.add('is-active');
+        images[current].removeAttribute('aria-hidden');
+      }, 4000);
+    }, index * 800);
+  });
+
   // Render a real map with markers so location positions stay accurate.
   var locationMap = document.querySelector('.location-map[data-map-center-lat][data-map-center-lng][data-map-zoom]');
 
