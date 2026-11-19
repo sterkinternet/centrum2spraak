@@ -1,5 +1,5 @@
 /**
- * Centrum 2Spraak - Carousel
+ * Centrum 2spraak - Carousel
  * Horizontal scroll-snap carousel with prev/next buttons and optional autoplay.
  * Markup: [data-carousel] > .carousel-prev, .carousel-track > .carousel-slide, .carousel-next
  * Autoplay interval (ms) via data-autoplay; disabled for prefers-reduced-motion.

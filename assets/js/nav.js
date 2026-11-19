@@ -1,5 +1,5 @@
 /**
- * Centrum 2Spraak - Navigation Toggle
+ * Centrum 2spraak - Navigation Toggle
  * Mobile hamburger menu and smooth scroll
  */
 (function () {

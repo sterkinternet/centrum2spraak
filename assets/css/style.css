@@ -1,5 +1,5 @@
 /* ============================================
-   Centrum 2Spraak - Static Website Styles
+   Centrum 2spraak - Static Website Styles
    ============================================ */
 
 /* --- Fonts --- */
@@ -708,6 +708,17 @@ main {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+.specialist-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  background: var(--color-primary-bg);
+  color: var(--color-text-dark);
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .specialist-card h3 {
