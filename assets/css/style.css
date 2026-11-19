@@ -710,17 +710,6 @@ main {
   object-fit: cover;
 }
 
-.specialist-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1/1;
-  background: var(--color-primary-bg);
-  color: var(--color-text-dark);
-  font-size: 3rem;
-  font-weight: 600;
-}
-
 .specialist-card h3 {
   padding: 1rem;
   font-size: var(--font-size-base);
