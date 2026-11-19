@@ -1949,3 +1949,50 @@ button:focus-visible,
 .location-card-home h3 {
   color: var(--color-link);
 }
+
+/* --- Homepage hero: spraakgolf-animatie (assets/js/hero-wave.js) --- */
+.hero.hero-wave {
+  min-height: clamp(460px, 64vh, 580px);
+}
+
+.hero-wave-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero.hero-wave .hero-shell {
+  z-index: 2;
+}
+
+.hero-wave .hero-copy > * {
+  animation: hero-copy-in 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.hero-wave .hero-copy > :nth-child(2) {
+  animation-delay: 0.12s;
+}
+
+.hero-wave .hero-copy > :nth-child(3) {
+  animation-delay: 0.24s;
+}
+
+@keyframes hero-copy-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-wave .hero-copy > * {
+    animation: none;
+  }
+}
